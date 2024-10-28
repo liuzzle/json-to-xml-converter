@@ -1,0 +1,6 @@
+ijson
+lxml
+argparse
+memory-profiler
+matplotlib
+pytest

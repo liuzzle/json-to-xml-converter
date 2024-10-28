@@ -1,0 +1,3 @@
+INFO:root:Processed 6990280 reviews from file review_large.json
+INFO:root:Processed 3000 reviews from file test.xml
+INFO:root:Processed 2208365 reviews from file train.xml
