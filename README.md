@@ -5,9 +5,12 @@ This project provides a command-line interface (CLI) tool to convert JSON files 
 ### Features
 
   •	JSON to XML Conversion: Converts a JSON file into XML format.
+  
   •	Reservoir Sampling: Splits data into test and train sets using a reservoir sampling technique.
+  
   •	Logging: Logs the count of JSON elements, train, and test data in a text file.
-	•	Weekend Filter: Filters data to include only entries created on weekends.
+  
+•	Weekend Filter: Filters data to include only entries created on weekends.
 
 ## Getting Started
 
