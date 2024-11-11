@@ -45,27 +45,38 @@ Example:
 ### Command-Line Arguments
 
   •	--json_file: Path to the JSON file to be converted.
-	•	--xml_train: Path for the output training XML file.
-	•	--xml_test: Path for the output test XML file.
-	•	--number: Reservoir size (integer) determining the number of test samples.
+  
+•	--xml_train: Path for the output training XML file.
+
+•	--xml_test: Path for the output test XML file.
+
+•	--number: Reservoir size (integer) determining the number of test samples.
 
 ## Project Structure
 
   •	src/__main__.py: CLI interface to convert JSON to XML with test/train split.
-	•	src/converter.py: Contains the JsonConverterToXML class responsible for:
-	•	Reading JSON data
-	•	Filtering weekend entries
-	•	Splitting data with reservoir sampling
-	•	Writing to XML files
-	•	Logging metadata
-	•	tests/Test_json_converter_to_xml.py: Unit tests for JsonConverterToXML functions using pytest.
+  
+src/converter.py: Contains the JsonConverterToXML class responsible for:
+
+•	Reading JSON data
+
+•	Filtering weekend entries
+
+•	Splitting data with reservoir sampling
+
+•	Writing to XML files
+
+•	Logging metadata
+
+•	tests/Test_json_converter_to_xml.py: Unit tests for JsonConverterToXML functions using pytest.
 
 ### Logging
 
 Logs are saved in files/converter_logs.txt with the following details:
 
-  •	Total JSON elements processed
-	•	Elements written in test and train XML files
+  Total JSON elements processed
+  
+•	Elements written in test and train XML files
 
 ### Testing
 
